@@ -1,0 +1,70 @@
+{
+  "collections": [
+    {
+      "id": "favorites",
+      "title": "Favorites bar",
+      "bookmarks": [
+        {
+          "id": "1",
+          "title": "Facebook",
+          "isFavorite": true,
+          "url": "https://www.facebook.com/"
+        },
+        {
+          "id": "2",
+          "title": "YouTube",
+          "isFavorite": false,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "id": "3",
+          "title": "Shopee Việt Nam | Mua và Bán Trên Ứng Dụng Di Động",
+          "isFavorite": false,
+          "url": "https://shopee.vn/"
+        },
+        {
+          "id": "4",
+          "title": "Xem phim 1080",
+          "isFavorite": false,
+          "url": "https://phimway.com/"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "title": "Work",
+      "bookmarks": [
+        {
+          "id": "5",
+          "title": "GitHub",
+          "isFavorite": false,
+          "url": "https://github.com/"
+        },
+        {
+          "id": "6",
+          "title": "Stack Overflow",
+          "isFavorite": false,
+          "url": "https://stackoverflow.com/"
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "Learning",
+      "bookmarks": [
+        {
+          "id": "7",
+          "title": "MDN Web Docs",
+          "isFavorite": false,
+          "url": "https://developer.mozilla.org/"
+        },
+        {
+          "id": "8",
+          "title": "Udemy",
+          "isFavorite": false,
+          "url": "https://www.udemy.com/"
+        }
+      ]
+    }
+  ]
+}
