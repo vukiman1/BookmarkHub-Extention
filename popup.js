@@ -74,8 +74,10 @@ async function setFavorite(bookmarkId, isFavorite) {
     method: "PUT",
     headers: {
       apikey: API_KEY,
+      "Content-Type": "application/json",
+      Prefer: "return=representation",
     },
-    body: JSON.stringify({ isFavorite }),
+    body: JSON.stringify({ id: bookmarkId, isFavorite }),
   });
 }
 
